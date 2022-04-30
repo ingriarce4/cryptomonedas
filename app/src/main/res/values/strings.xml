@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CryptoList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="semanas" />
+    <string name="dolar">USD$</string>
+    <string name="nombre">Nombre</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="Valor">TextView</string>
+    <string name="usuario">Usuario</string>
+    <string name="moneda">Moneda</string>
+    <string name="rank">rank</string>
+    <string name="precio">Precio</string>
+    <string name="basic_attention_token">Basic Attention Token</string>
+    <string name="supply">Supply</string>
+    <string name="hora">Hora</string>
+    <string name="registrate">Registrate</string>
+    <string name="ingresar">Ingresar</string>
+</resources>

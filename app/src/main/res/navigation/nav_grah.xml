@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grah"
+    app:startDestination="@id/animacion">
+
+    <fragment
+        android:id="@+id/listaMonedas"
+        android:name="cl.desafiolatam.cryptolist.ui.ListaMonedas"
+        android:label="fragment_lista_monedas"
+        tools:layout="@layout/fragment_lista_monedas" >
+        <action
+            android:id="@+id/action_listaMonedas_to_detalleMoneda"
+            app:destination="@id/detalleMoneda" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleMoneda"
+        android:name="cl.desafiolatam.cryptolist.ui.DetalleMoneda"
+        android:label="fragment_detalle_moneda"
+        tools:layout="@layout/fragment_detalle_moneda" >
+        <action
+            android:id="@+id/action_detalleMoneda_to_listaMonedas"
+            app:destination="@id/listaMonedas" />
+    </fragment>
+    <fragment
+        android:id="@+id/animacion"
+        android:name="cl.desafiolatam.cryptolist.ui.Animacion"
+        android:label="fragment_animacion"
+        tools:layout="@layout/fragment_animacion" >
+        <action
+            android:id="@+id/action_animacion_to_listaMonedas"
+            app:destination="@id/listaMonedas" />
+    </fragment>
+</navigation>
